@@ -101,7 +101,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
              <?php if ($error): ?>
         <div class="error"><?php echo $error; ?></div>
     <?php endif; ?>
-    <form action="register.php" method="post">
+    <form action="soft-ui-dashboard-main\pagesdashboard.html" method="post">
                   <div class="mb-3">
                     <input type="text" name="username" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="email-addon" required="">
                   </div>
